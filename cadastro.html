@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="cadastro">
+    <header class ="cadastro de produtos">
+        <img src="css/images/LogoM.png" alt="Logo do Site" class="site-logo">
+        <h1>Cadastro de Produtos</h1>
+
+        <form id="formCadastro" class="form-cadastro">
+            <label for="nome">Nome do Produto:</label>
+            <input type="text" id="nomeProduto" name="nome" required><br><br>
+
+            <label for="preco">Preço do Produto:</label>
+            <input type="text" id="precoProduto" name="preco" required><br><br>
+
+            <label for="quantidade">Quantidade do Produto:</label>
+            <input type="number" id="quantidade" name="quantidade" required><br><br>
+
+            <label for="lote">Lote do produto:</label>
+            <input type="number" id="loteProduto" name="lote" required><br><br>
+
+            <label for="fabricacao">Data de Fabricação:</label>
+            <input type="date" id="fabricacao" placeholder="DD/MM/AAAA" maxlength="10"><br><br>
+
+            <label for="validade">Data de Validade:</label>
+            <input type="date" id="validade" name="validade" required><br><br>
+
+            <label for="descricao">Descrição do Produto:</label>
+            <textarea id="descricao" name="descricao"></textarea><br><br>
+
+            <button type="submit" id="submit">Cadastrar Produto</button>
+            <br>
+            <button type="reset" id="reset">Limpar Campo</button>
+
+        </form>    
+    </header>
+<footer class="rodapecad">Desenvolvido por: Samuel Victor da Silva Maia - Aluno BFD 2025 Turma 4 PE - Polo Recife</footer>     
+<script src="js/cadastro.js"></script>
+<script src="js/main.js"></script>   
+</body>
+</html>
